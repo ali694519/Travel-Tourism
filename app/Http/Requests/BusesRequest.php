@@ -27,7 +27,7 @@ class BusesRequest extends FormRequest
             'left_row_count' => 'required|integer|min:0',
             'right_row_count' => 'required|integer|min:0',
             'last_row_count' => 'required|integer|min:0',
-            'reserved_seats_count' => 'required|integer|min:0',
+            'reserved_seats_count' => 'required',
         ];
     }
 }

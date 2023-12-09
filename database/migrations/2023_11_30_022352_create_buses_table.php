@@ -20,7 +20,7 @@ return new class extends Migration
             $table->unsignedInteger('left_row_count');
             $table->unsignedInteger('right_row_count');
             $table->unsignedInteger('last_row_count');
-            $table->unsignedInteger('reserved_seats_count')->default(0);
+            $table->string('reserved_seats_count')->default(0);
             $table->timestamps();
         });
     }

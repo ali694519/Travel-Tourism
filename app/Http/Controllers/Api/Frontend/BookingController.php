@@ -64,7 +64,7 @@ class BookingController extends Controller
     {
         $booking = Booking::find($booking);
         if (!$booking) {return response()->json(['error' => 'Booking not found'], 404);}
-        $booking->load("trips","seats");
+        $booking->load("trips.buses","seats");
         return response()->json(['Booking' => $booking], 200);
     }
     public function destroy($booking)
