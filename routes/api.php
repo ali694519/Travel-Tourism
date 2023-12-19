@@ -46,5 +46,9 @@ Route::get('/trip/show/{trip}',[TripController::class,'show']);
 Route::get('/bus/show/{bus}',[BusesController::class,'show']);
 Route::post('/booking/store',[BookingController::class,'store']);
 
+Route::fallback(function() {
+    return "This url is not found";
+});
+
 require __DIR__.'/dashboard.php';
 
