@@ -3,9 +3,6 @@
 namespace App\Http\Controllers\Api\Dashboard;
 
 use App\Models\Trip;
-use App\Models\Booking;
-use App\Models\Location;
-use Illuminate\Http\Request;
 use App\Http\Requests\TripRequest;
 use App\Http\Controllers\Controller;
 use Spatie\QueryBuilder\QueryBuilder;

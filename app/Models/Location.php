@@ -3,7 +3,6 @@
 namespace App\Models;
 
 use App\Models\Trip;
-use App\Models\Image;
 use App\Models\Category;
 use Spatie\MediaLibrary\HasMedia;
 use Illuminate\Database\Eloquent\Model;

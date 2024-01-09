@@ -3,10 +3,8 @@
 namespace App\Http\Controllers\Api\Dashboard;
 
 use App\Models\Location;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\LocationRequest;
-use Illuminate\Support\Facades\Storage;
 
 class LocationController extends Controller
 {

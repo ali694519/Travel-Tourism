@@ -3,10 +3,8 @@
 namespace App\Http\Controllers\Api\Dashboard;
 
 use App\Models\Category;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\CategoryRequest;
-use Illuminate\Support\Facades\Storage;
 
 class CategoryController extends Controller
 {

@@ -2,12 +2,9 @@
 
 namespace App\Http\Controllers\Api\Frontend;
 
-use App\Models\Seat;
 use App\Models\Trip;
 use App\Models\Booking;
 use App\Models\SeatInfo;
-use Illuminate\Http\Request;
-use Illuminate\Support\Benchmark;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\BookingRequest;

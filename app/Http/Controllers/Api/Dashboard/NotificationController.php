@@ -3,9 +3,7 @@
 namespace App\Http\Controllers\Api\Dashboard;
 
 use App\Models\notification;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Storage;
 use App\Http\Requests\NotificationRequest;
 
 class NotificationController extends Controller

@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Api\Dashboard;
 
 use App\Models\Buses;
-use Illuminate\Http\Request;
 use App\Http\Requests\BusesRequest;
 use App\Http\Controllers\Controller;
 

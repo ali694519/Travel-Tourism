@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use App\Models\Category;
 use App\Models\Location;
 use Spatie\MediaLibrary\HasMedia;
 use Illuminate\Database\Eloquent\Model;

@@ -2,10 +2,7 @@
 
 namespace App\Models;
 
-use App\Models\Seat;
 use App\Models\Trip;
-use App\Models\User;
-use App\Models\Booking;
 use App\Models\SeatInfo;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
