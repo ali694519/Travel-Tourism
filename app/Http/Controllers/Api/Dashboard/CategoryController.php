@@ -8,7 +8,6 @@ use App\Http\Requests\CategoryRequest;
 
 class CategoryController extends Controller
 {
-
     public function index()
     {
         $categories = Category::with(['locations.media', 'locations.trips' => function ($query) {
